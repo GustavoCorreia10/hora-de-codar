@@ -2,7 +2,6 @@
 e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável. */
 
 
-// Global Variables
 var x: Double = 0.0
 var y: Double = 0.0
 var h: Double = 0.0
@@ -29,7 +28,7 @@ fun main(){
         7 -> circulo()
         else -> {
             println("Digite um número válido")
-            0.0 // Valor padrão para o caso de resposta inválida
+            0.0
         }
     }
 
